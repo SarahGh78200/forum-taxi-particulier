@@ -16,11 +16,14 @@
             free moove driver
         </a>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
-            <li class="nav-item">
-                <a class="nav-link text-white" href="/register">Inscription</a>
+        <li class="nav-item">
+                <a class="nav-link text-white" href="/register"><i class="fa-solid fa-circle-plus"></i> Inscription</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white" href=""> connexion</a>
+                <a class="nav-link text-white" href="/connection"><i class="fa-solid fa-circle-plus"></i> Connexion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="/logout"><i class="fa-solid fa-circle-plus"></i> Deconnexion</a>
             </li>
         </ul>
     </div>
