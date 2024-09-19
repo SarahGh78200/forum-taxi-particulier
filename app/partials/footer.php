@@ -1,6 +1,0 @@
-<footer>
-
-
-</footer>
-
-include pzty

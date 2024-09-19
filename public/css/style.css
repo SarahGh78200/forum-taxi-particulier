@@ -1,0 +1,16 @@
+.myBody{
+    background-image: url(../img/bg.jpeg);
+    min-height: 820px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+.imgLogo{
+    width: 80px;
+}
+nav, .myFooter{
+    background-color: rgb(0, 0, 0);
+    color: #000000;
+}
