@@ -12,19 +12,35 @@
 <nav class="navbar navbar-expand-lg navbar-light text-white pb-3">
     <div class="container-fluid">
         <a class="navbar-brand mt-2 mt-lg-0 text-white" href="/">
-            <img src="/public/logo.png" alt="Logo" class="imgLogo">
-            free moove driver
+            <img src="/public/img/logo.png" alt="Logo" class="imgLogo">
+            Forum
         </a>
         <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white">
-        <li class="nav-item">
-                <a class="nav-link text-white" href="/register"><i class="fa-solid fa-circle-plus"></i> Inscription</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="/connection"><i class="fa-solid fa-circle-plus"></i> Connexion</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="/logout"><i class="fa-solid fa-circle-plus"></i> Deconnexion</a>
-            </li>
+            <?php
+            if(isset($_SESSION['user'])){
+                ?>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/logout"><i class="fa-solid fa-circle-plus"></i> Deconnexion</a>
+                </li>
+                <?php
+                if($_SESSION['user']['role']== "Admin"){
+                    ?>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/users"><i class="fa-solid fa-circle-plus"></i> Utilisateurs</a>
+                    </li>
+                    <?php
+                }
+            } else {
+            ?>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/register"><i class="fa-solid fa-circle-plus"></i> Inscription</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="/connection"><i class="fa-solid fa-circle-plus"></i> Connexion</a>
+                </li>
+            <?php
+            }
+            ?>
         </ul>
     </div>
 </nav>
