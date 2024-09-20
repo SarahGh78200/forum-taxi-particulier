@@ -13,7 +13,7 @@ $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 $routes = [
     '/' => 'HomeController.php',
     '/register' => 'RegisterController.php',
-    '/connection' => 'ConnectionController.php',
+    '/connection' => 'ConnexionController.php',
     '/logout' => 'LogoutController.php',
     '/users' => 'UsersController.php'
 ];
