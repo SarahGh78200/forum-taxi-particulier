@@ -42,4 +42,4 @@ if(isset($_POST['mail'])){
         }
     }
 }
-require_once (__DIR__ . '/../Views/security/connexion.view.php');
+require_once (__DIR__ . '/../Views/security/connection.view.php');
