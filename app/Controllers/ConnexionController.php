@@ -19,7 +19,7 @@ if(isset($_POST['mail'])){
             //Dans la variable $verif on auras TRUE/FALSE 
             $verif = password_verify($password, $user['password']);
             if(!$verif){
-                redirectToRoute('/connection');
+                redirectToRoute('/connexion');
             }else{
                 $userQuery = "SELECT `user`.`id`, `user`.`pseudo`, `user`.`mail`,`user`.`register_date`, `user`.`id_role`, `role`.`name` 
                 FROM `user`
@@ -42,4 +42,4 @@ if(isset($_POST['mail'])){
         }
     }
 }
-require_once (__DIR__ . '/../Views/security/connection.view.php');
+require_once (__DIR__ . '/../Views/security/connexion.view.php');
