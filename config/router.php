@@ -13,11 +13,13 @@ $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 $routes = [
     '/' => 'HomeController.php',
     '/register' => 'RegisterController.php',
-    '/connexion' => 'ConnexionController.php',
+    '/connection' => 'ConnectionController.php',
     '/logout' => 'LogoutController.php',
     '/users' => 'UsersController.php',
     '/profile' => 'UserProfileController.php',
-    '/subject' => 'SubjectController.php'
+    '/subject' => 'SubjectController.php',
+    '/articles' => 'AllArticlesController.php',
+    '/article' => 'ArticleController.php'
 ];
 
 

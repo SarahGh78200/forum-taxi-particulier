@@ -22,7 +22,6 @@
 				<?php
             } ?>
         </div>
-        
         <button type="submit" class="btn colorPurpel mt-3">Ajout du sujet</button>
     </div>
 </form>

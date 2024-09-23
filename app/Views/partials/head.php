@@ -39,9 +39,9 @@
                     <a class="nav-link text-white" href="/register"><i class="fa-solid fa-circle-plus"></i> Inscription</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="/connexion"><i class="fa-solid fa-circle-plus"></i> Connexion</a>
+                    <a class="nav-link text-white" href="/connection"><i class="fa-solid fa-circle-plus"></i> Connexion</a>
                 </li>
-
+            
             <?php
             }
             ?>
