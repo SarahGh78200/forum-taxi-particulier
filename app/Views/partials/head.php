@@ -29,8 +29,8 @@
                         <a class="nav-link text-white" href="/users"><i class="fa-solid fa-circle-plus"></i> Utilisateurs</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link text-white" href="/subject"><i class="fa-solid fa-circle-plus"></i>Ajout d'un sujet</a>
-                </li>
+                        <a class="nav-link text-white" href="/subject"><i class="fa-solid fa-circle-plus"></i> Ajout sujet</a>
+                    </li>
                     <?php
                 }
             } else {
@@ -41,7 +41,6 @@
                 <li class="nav-item">
                     <a class="nav-link text-white" href="/connection"><i class="fa-solid fa-circle-plus"></i> Connexion</a>
                 </li>
-            
             <?php
             }
             ?>
