@@ -11,7 +11,7 @@
     width: 60px;
 }
 nav, .myFooter{
-    background-color: rgba(2, 2, 2, 0.7);
+    background-color: rgba(0, 168, 129, 0.7);
 }
 .colorPurpel{
     background-color: #3f0060;
@@ -20,5 +20,10 @@ nav, .myFooter{
 
 .colorPink{
     background-color: rgb(238, 133, 187);
+    color: rgb(23, 23, 23);
+}
+
+.colorGreen {
+    background-color: rgb(148, 245, 103);
     color: rgb(23, 23, 23);
 }
